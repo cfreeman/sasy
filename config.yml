@@ -1,0 +1,17 @@
+baseURL: https://sachsiansyndicate.com
+languageCode: en-us
+title: SASY
+theme: sasy
+
+outputs:
+  home: ["HTML", "RSS"]
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "rss"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

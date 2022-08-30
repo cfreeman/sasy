@@ -1,0 +1,105 @@
+/* vt323-regular - latin */
+@font-face {
+  font-family: 'VT323';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/vt323-v17-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/fonts/vt323-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/vt323-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/vt323-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/vt323-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/vt323-v17-latin-regular.svg#VT323') format('svg'); /* Legacy iOS */
+}
+
+h1 {
+  font-family: 'VT323';
+  color:  rgb(224, 225, 64);
+  background-color:  rgb(19, 49, 201);
+  font-weight:100;
+  margin-top: -5px;
+  padding-left: 30px;
+}
+
+h2 {
+  color:  rgb(106,202,206);
+  margin-bottom:  5px;
+}
+
+h2+p {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+body, p, ul {
+  font-family: 'VT323' !important;
+  background-color:  rgb(48, 56, 65);
+  color:  rgb(217, 222, 233);
+  font-size: 20px;
+}
+
+.section {
+  padding-bottom: 30px;
+}
+
+.desc {
+  margin-top: 0px;
+  padding-bottom: 50px;
+}
+
+.desc h3 {
+  font-family: 'VT323';
+  color:  rgb(224, 225, 64);
+  background-color:  rgb(19, 49, 201);
+  font-weight:100;
+  padding-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.desc p {
+  margin-top: 0px;
+  padding-left: 15px;
+}
+
+.block {
+  margin-bottom: 0px;
+}
+
+.block+p+p {
+  margin-bottom: 18px;
+}
+
+
+.frame {
+  padding-bottom: 20px !important;
+}
+
+.banner {
+  width: 10px;
+  font-size: 9px;
+  margin-bottom:0px;
+}
+
+.legal {
+  margin-top: 0px;
+  padding-top:  0px;
+}
+
+.footer {
+  padding-left: 30px;
+}
+
+.content {
+  padding-left: 30px;
+  padding-right:  30px;
+}
+
+a:link {
+  color: rgb(106, 198, 74);
+}
+
+a:visited {
+  color:  rgb(106, 198, 74);
+}
+
