@@ -19,5 +19,5 @@ git push origin gh-pages
 
 ## TODO
 * CSS blend mode for images
-* Create favicon
+* ~~Create favicon~~
 * Setup server config
