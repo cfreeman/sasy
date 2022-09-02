@@ -70,24 +70,8 @@ body, p, ul {
   margin-bottom: 18px;
 }
 
-
 .frame {
-  padding-bottom: 20px !important;
-}
-
-.banner {
-  width: 10px;
-  font-size: 9px;
-  margin-bottom:0px;
-}
-
-.legal {
-  margin-top: 0px;
-  padding-top:  0px;
-}
-
-.footer {
-  padding-left: 30px;
+  margin-bottom: 20px !important;
 }
 
 .content {
@@ -103,3 +87,32 @@ a:visited {
   color:  rgb(106, 198, 74);
 }
 
+.footer {
+  padding-left: 30px;
+}
+
+.catch {
+  margin-bottom: 2px;
+}
+
+.banner {
+  width: 10px;
+  font-size: 9px;
+  margin-bottom:0px;
+  margin-top: 0px;
+}
+
+.legal {
+  margin-top: 2px;
+  padding-top:  0px;
+  font-size: 12px;
+  color: rgba(217, 222, 233, 0.5);
+}
+
+.legal a:link {
+  color: rgba(106, 198, 74, 0.5);
+}
+
+.legal a:visited {
+  color: rgba(106, 198, 74, 0.5);
+}

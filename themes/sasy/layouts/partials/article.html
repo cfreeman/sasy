@@ -1,0 +1,32 @@
+<div class="header">
+  <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+</div>
+
+<div class="content">
+  {{ .Content }}
+
+  <p class="legal">&nbsp;</p>
+  <div id='discourse-comments'></div>
+
+  {{ .Scratch.Set "link" .Permalink }}
+  {{ if gt (len .Aliases) 0 }}
+    {{ .Scratch.Set "link" (printf `https://reprage.com%s` (index (.Aliases) 0)) }}
+  {{ end }}
+
+  <time {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
+  {{ .Date.Format "January 2, 2006" }}
+</time></p>
+</div>
+
+
+
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'https://discourse.reprage.com/',
+                     discourseEmbedUrl: '{{ .Scratch.Get "link" | safeHTMLAttr }}' };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
