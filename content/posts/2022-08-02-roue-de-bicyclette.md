@@ -1,7 +1,7 @@
 ---
 categories:
 - assignment
-date: 2022-09-02T15:41:00+10:00
+date: 2022-08-02T15:41:00+10:00
 description: A community driven art assignment to create a geniune 'fake' Roue De Bicyclette
 draft: false
 icon: 2022-roue-de-bicyclette.png

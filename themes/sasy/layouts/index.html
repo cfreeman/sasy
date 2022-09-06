@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="content">
-<p>The Sachsian Syndicate is a community of artists inspired by the work of the Tom Sachs Studio.</p>
+<p>The Sachsian Syndicate is a community of artists inspired by the work of the Tom Sachs Studio. You can also find us on <a href="https://www.instagram.com/sachsiansyndicate/">Instagram</a> and <a href="https://discord.com/invite/rocketfactory">Discord</a>.</p>
 
 <div class="section">
 <h2>ASSIGNMENTS</h2>
@@ -22,38 +22,21 @@
   </div>
 {{ end }}
 
-<h2> PROJECTS </h2>
-  <p> Description about projects </p>
-  <ul>
-    <li>international space program</li>
-    <li>Tom Sachs Fake ID</li>
-  </ul>
+<div class="section">
+<h2> ZINES </h2>
+</div>
 
-  <div class="section">
-  <h2> ZINES </h2>
-  <p> Description about zines. </p>
-  </div>
-  <div class="pure-g">
-  <div class="pure-u-1 pure-u-md-1-5 right"><img class="pure-img right frame" src="/images/2022-endurance-zine.png"></div>
-    <div class="pure-u-1 pure-u-md-4-5">
-      <div class="desc">
-      <h3>ENDURANCE</h3>
-      <p>Published on the one year anniversary of:</p>
-      <p class="block"><i>Endurance: Organized by Tom Sachs</i></p>
-      <p class="block">June 25, 2021 - July 25, 2022</p>
-      <p class="block">Rockefeller Center, New York City.</p>
-
-      <p><a href="https://issuu.com/sachsiansyndicate/docs/2022-06-02-endurance-zine-online">view online</a> | <a href="https://drive.google.com/file/d/1Mkx6vbiCiJeYa0c63Wh9yfitOOy87kQC/view">download printable</a></p>
-      </div>
+{{ range ($.Site.GetPage "/zine").Pages }}
+<div class="pure-g">
+  <div class="pure-u-1 pure-u-md-1-5 right"><img class="pure-img right frame" src="/images/{{ .Params.Icon }}"></div>
+  <div class="pure-u-1 pure-u-md-4-5">
+    <div class="desc">
+      <h3>{{ .Title }}</h3>
+      {{ .Content }}
+      <p><a href="{{ .Params.online }}">view online</a> | <a href="{{ .Params.print }}">download printable</a></p>
     </div>
   </div>
-<h2> PEOPLE </h2>
-  <ul>
-    <li>Gabby Sto Domingo - <a href="https://gabfolio.net">w</a> | <a href="https://www.instagram.com/spicygabby/">i</a></li>
-    <li>Aaron Hankins - <a href="http://aaronehankins.com/">w</a> | <a href="https://www.instagram.com/marsyard_overshoe/">i</a></li>
-    <li>Caulin Tanner - <a href="https://caulin.myportfolio.com">w</a> | <a href="https://www.instagram.com/caulin_tanner/">i</a></li>
-    <li>Clinton Freeman - <a href="https://reprage.com">w</a> | <a href="https://www.instagram.com/reprage/">i</a></li>
-  </ul>
-  You can also contact us on <a href="https://www.instagram.com/sachsiansyndicate/">instagram</a> and <a href="https://discord.com/invite/rocketfactory">discord</a>.</p><br>
 </div>
+{{ end }}
+
 {{ end }}

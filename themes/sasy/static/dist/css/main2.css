@@ -70,8 +70,14 @@ body, p, ul {
   margin-bottom: 18px;
 }
 
+@media (min-width: 768px) {
+  .frame {
+    margin-bottom: 20px !important;
+  }
+}
+
 .frame {
-  margin-bottom: 20px !important;
+
 }
 
 .content {
@@ -88,7 +94,6 @@ a:visited {
 }
 
 .footer {
-  padding-left: 30px;
 }
 
 .catch {
