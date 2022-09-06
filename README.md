@@ -7,17 +7,24 @@ cd /home/data
 hugo server --buildFuture --bind 0.0.0.0 -D
 ```
 
-## Rebuilding and uploading the website.
-```bash
-hugo
-cd public
-git add --all
-git commit -m "Publish to gh-pages"
-cd ..
-git push origin gh-pages
-```
-
 ## TODO
-* CSS blend mode for images
 * ~~Create favicon~~
-* Setup server config
+* ~~Setup server config~~
+
+## scratch space
+
+<h2> PEOPLE </h2>
+  <ul>
+    <li>Gabby Sto Domingo - <a href="https://gabfolio.net">w</a> | <a href="https://www.instagram.com/spicygabby/">i</a></li>
+    <li>Aaron Hankins - <a href="http://aaronehankins.com/">w</a> | <a href="https://www.instagram.com/marsyard_overshoe/">i</a></li>
+    <li>Caulin Tanner - <a href="https://caulin.myportfolio.com">w</a> | <a href="https://www.instagram.com/caulin_tanner/">i</a></li>
+    <li>Clinton Freeman - <a href="https://reprage.com">w</a> | <a href="https://www.instagram.com/reprage/">i</a></li>
+  </ul>
+</div>
+
+<h2> PROJECTS </h2>
+  <p> Description about projects </p>
+  <ul>
+    <li>international space program</li>
+    <li>Tom Sachs Fake ID</li>
+  </ul>
