@@ -16,7 +16,11 @@
       <div class="desc">
         <h3>{{ .Title }}</h3>
         {{ .Content }}
-        <p><a href="{{ .Params.original }}">original post</a></p>
+        <p><a href="{{ .Params.original }}">original post</a>
+        {{ if .Params.submissions }}
+          | <a href="{{ .Params.submissions }}">submissions</a>
+        {{ end }}
+        </p>
       </div>
     </div>
   </div>

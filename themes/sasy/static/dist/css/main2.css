@@ -45,6 +45,7 @@ body, p, ul {
 .desc {
   margin-top: 0px;
   padding-bottom: 50px;
+  max-width: 500px;
 }
 
 .desc h3 {
@@ -60,6 +61,7 @@ body, p, ul {
 .desc p {
   margin-top: 0px;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 .block {
@@ -83,6 +85,10 @@ body, p, ul {
 .content {
   padding-left: 30px;
   padding-right:  30px;
+}
+
+.content p {
+  max-width: 1000px;
 }
 
 a:link {
