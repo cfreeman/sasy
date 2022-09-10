@@ -21,6 +21,16 @@ h1 {
   padding-left: 30px;
 }
 
+h1 a:link {
+  color:  rgb(224, 225, 64);
+  text-decoration: none;
+}
+
+h1 a:visited {
+  color:  rgb(224, 225, 64);
+  text-decoration: none;
+}
+
 h2 {
   color:  rgb(106,202,206);
   margin-bottom:  5px;
@@ -111,6 +121,12 @@ a:visited {
   font-size: 9px;
   margin-bottom:0px;
   margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    font-size: 6px !important;
+  }
 }
 
 .legal {
