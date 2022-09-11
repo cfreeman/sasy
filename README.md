@@ -10,6 +10,8 @@ hugo server --buildFuture --bind 0.0.0.0 -D
 ## TODO
 * ~~Create favicon~~
 * ~~Setup server config~~
+* ~~Add assignment description to top of submissions page.~~
+* ~~Fix up ten bullets banner on mobile.~~
 
 ## scratch space
 
