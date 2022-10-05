@@ -8,6 +8,8 @@ icon: 2022-roue-de-bicyclette.png
 language: en
 title: ROUE DE BICYCLETTE
 original: https://www.instagram.com/p/Cgu3H4TFU_w/
+submissions: /readymade
+type: readymades
 
 ---
 
