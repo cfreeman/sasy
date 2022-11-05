@@ -4,11 +4,12 @@ categories:
 date: 2022-09-05T15:41:00+10:00
 description: 
 draft: false
-icon: 2022-endurance-zine.png
+icon: 2022-endurance-zine.webp
 language: en
 title: ENDURANCE
 online: https://issuu.com/sachsiansyndicate/docs/2022-06-02-endurance-zine-online
 print: https://drive.google.com/file/d/1Mkx6vbiCiJeYa0c63Wh9yfitOOy87kQC/view
+alt: A photo of the Endurance Zine laying on a green cutting mat.
 
 ---
 

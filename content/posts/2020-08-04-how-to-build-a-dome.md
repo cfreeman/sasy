@@ -4,10 +4,11 @@ categories:
 date: 2020-08-04T15:41:00+10:00
 description: A community driven art assignment to create a geodesic dome. 
 draft: false
-icon: 2020-how-to-build-a-dome.png
+icon: 2020-how-to-build-a-dome.webp
 language: en
 title: HOW TO BUILD A DOME
 original: https://www.instagram.com/tv/CDbyRCFH59B/
+alt: A photo of a fire at the Montreal Biosphere
 
 ---
 

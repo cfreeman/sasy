@@ -4,12 +4,13 @@ categories:
 date: 2022-08-02T15:41:00+10:00
 description: A community driven art assignment to create a geniune 'fake' Roue De Bicyclette
 draft: false
-icon: 2022-roue-de-bicyclette.png
+icon: 2022-roue-de-bicyclette.webp
 language: en
 title: ROUE DE BICYCLETTE
 original: https://www.instagram.com/p/Cgu3H4TFU_w/
 submissions: /readymade
 type: readymades
+alt: A photo of Marchel Duchamp's Roue de bicyclette.
 
 ---
 

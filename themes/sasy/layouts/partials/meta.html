@@ -1,0 +1,13 @@
+{{ if .IsHome  }}
+<meta name="description" content="A community preservation experiment featuring a group of artists inspired by the work of the Tom Sachs Studio.">
+{{ else }}
+	{{ $t := .RelPermalink }}
+	{{ range $key, $value := .Site.Taxonomies.categories }}
+		{{ range $value.Pages }}
+			{{ $b := printf "%s/" .Params.submissions }}
+			{{ if eq $b $t }}
+				<meta name="description" content="{{.Params.description}}">
+			{{ end }}
+		{{ end }}
+	{{ end }}
+{{ end }}
