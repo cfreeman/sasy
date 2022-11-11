@@ -17,10 +17,7 @@ hugo server --buildFuture --bind 0.0.0.0 -D
 
 <h2> PEOPLE </h2>
   <ul>
-    <li>Gabby Sto Domingo - <a href="https://gabfolio.net">w</a> | <a href="https://www.instagram.com/spicygabby/">i</a></li>
-    <li>Aaron Hankins - <a href="http://aaronehankins.com/">w</a> | <a href="https://www.instagram.com/marsyard_overshoe/">i</a></li>
     <li>Caulin Tanner - <a href="https://caulin.myportfolio.com">w</a> | <a href="https://www.instagram.com/caulin_tanner/">i</a></li>
-    <li>Clinton Freeman - <a href="https://reprage.com">w</a> | <a href="https://www.instagram.com/reprage/">i</a></li>
   </ul>
 </div>
 
