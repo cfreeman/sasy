@@ -6,6 +6,6 @@ icon: 2022-12-30-skull-ring.webp
 language: en
 title: SKULL RING
 link: https://www.instagram.com/p/Cmw2yrWIwnz/
-alt: A photo a silve skull ring worn on a pinkie finger.
+alt: A photo a silver skull ring worn on a pinkie finger.
 
 ---
