@@ -9,4 +9,5 @@ hugo server --buildFuture --bind 0.0.0.0 -D
 
 ## TODO
 * Build a tool to help automate the archival process.
+* robots.txt, rss, and sitemap.xml config.
 
