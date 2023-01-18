@@ -23,8 +23,8 @@
 {{- partial "meta.html" . -}}
 
 {{ $style:= resources.Get "main.css" | minify }}
-{{ $pure:= resources.GetRemote "https://unpkg.com/purecss@1.0.0/build/pure-min.css" | minify }}
-{{ $grid:= resources.GetRemote "https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css" }}
+{{ $pure:= resources.Get "pure-min.css" | minify }}
+{{ $grid:= resources.Get "grids-responsive-min.css" | minify }}
 
 <style>{{ $pure.Content | safeCSS }}{{ $grid.Content | safeCSS }}{{ $style.Content | safeCSS }}</style>
 
