@@ -4,7 +4,7 @@ description: A spruce plywood boombox powered by a shenzen amp and emblazoned wi
 draft: false
 icon: 2021-06-01-Boombox-model018.webp
 language: en
-title: CHAD.ARIE
+title: BACKYARD BRICOLEUR
 alt: A photo of a plywood boombox infront of a workshop tool wall.
 
 ---
