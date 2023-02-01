@@ -51,10 +51,13 @@ body, p, ul {
   padding-bottom: 30px;
 }
 
+.pure-u-md-1-5 img {
+  margin-bottom: 0px !important;
+}
+
 .desc {
   margin-top: 0px;
   padding-bottom: 50px;
-  max-width: 500px;
 }
 
 .desc h3 {
@@ -64,7 +67,7 @@ body, p, ul {
   font-weight:100;
   padding-left: 15px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .desc p {
@@ -99,6 +102,40 @@ a:visited {color:  rgb(106, 198, 74);}
 @media (max-width: 768px) {
   .banner {font-size: 6px !important;}
   .frame {margin-bottom: 20px !important;}
+
+  .desc {
+    max-width:500px;
+  }
+
+  .desc p {
+    padding-left: 0px;
+  }
+
+  .desc ul {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 565px) {
+  .content {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .desc p, p {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .desc ul {
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+
+  h2, .desc h3 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
 .legal {
