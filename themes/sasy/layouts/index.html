@@ -11,7 +11,7 @@
 
 {{ range ($.Site.GetPage "/assignment").Pages }}
   <div class="pure-g">
-    <div class="pure-u-1 pure-u-md-1-5 right"><img class="pure-img right frame" width="500" height="500" src="/images/{{ .Params.Icon }}" alt="{{.Params.alt}}"></div>
+    <div class="pure-u-1 pure-u-md-1-5 right"><img class="pure-img right frame" width="500" height="500" src="https://tsa.nyc3.cdn.digitaloceanspaces.com/sasy/images/{{ .Params.Icon }}" alt="{{.Params.alt}}"></div>
     <div class="pure-u-1 pure-u-md-4-5">
       <div class="desc">
         <h3>{{ .Title }}</h3>
@@ -32,7 +32,7 @@
 
 {{ range ($.Site.GetPage "/zine").Pages }}
 <div class="pure-g">
-  <div class="pure-u-1 pure-u-md-1-5 right"><img class="pure-img right frame" loading="lazy" src="/images/{{ .Params.Icon }}" width="500" height="500" alt="{{.Params.alt}}"></div>
+  <div class="pure-u-1 pure-u-md-1-5 right"><img class="pure-img right frame" loading="lazy" src="https://tsa.nyc3.cdn.digitaloceanspaces.com/sasy/images/{{ .Params.Icon }}" width="500" height="500" alt="{{.Params.alt}}"></div>
   <div class="pure-u-1 pure-u-md-4-5">
     <div class="desc">
       <h3>{{ .Title }}</h3>
@@ -51,7 +51,7 @@
 {{ range ($.Site.GetPage "/project").Pages }}
 <div class="pure-u-1 pure-u-md-1-3 right">
       <div class="desc">
-        <a href="{{ .Params.link }}"><img class="pure-img right" width="500" height="500" loading="lazy" src="/images/{{ .Params.Icon }}" alt="{{.Params.alt}}"></a>
+        <a href="{{ .Params.link }}"><img class="pure-img right" width="500" height="500" loading="lazy" src="https://tsa.nyc3.cdn.digitaloceanspaces.com/sasy/images/{{ .Params.Icon }}" alt="{{.Params.alt}}"></a>
         <h3>{{ .Title }}</h3>
         <p>{{ .Description }}</p>
         <p><a href="{{ .Params.link }}">source</a></p>

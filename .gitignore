@@ -8,3 +8,4 @@ process.sh
 themes/reprage/static/dist/css/dist/
 themes/reprage/static/dist/css/.cache
 .hugo_build.lock
+_site
