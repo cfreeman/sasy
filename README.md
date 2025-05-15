@@ -11,6 +11,7 @@ hugo server --buildFuture --bind 0.0.0.0 -D
 * ~~Build a tool to help automate the archival process.~~
 * ~~Shrink size of docker image.~~
 * ~~Store content on CDN.~~
+* Fingerprint images.
 * Automate dev and production build processes.
 * Document
 * robots.txt, rss, and sitemap.xml config.
